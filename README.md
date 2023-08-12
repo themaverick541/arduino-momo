@@ -28,9 +28,13 @@ Encoder need 5 pins for following:
 
 ## Fritzing Scheme
 
-![Scheme](./arduino-momo3.png)
+![Scheme](./arduino-momo.png)
 
 # Using
+
+## Dependencies
+Install https://github.com/MHeironimus/ArduinoJoystickLibrary in Arduino Studio to compile the sketch
+
 ## Connecting
 
 Unfortunately, wheel buttons and pedals in this rather simple project cannot be  connected to Arduino, so we need total of two USB connections to connect the whole solution: first will connect Momo and second will connect Arduino.
