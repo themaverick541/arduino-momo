@@ -28,7 +28,7 @@ Encoder need 5 pins for following:
 
 ## Fritzing Scheme
 
-TBD
+![Scheme](./arduino-momo3.png)
 
 # Using
 ## Connecting
@@ -47,8 +47,10 @@ To use the wheel, it is convenient to map it as Xbox controller, using, for exam
 ```
 sudo xboxdrv --evdev /dev/input/by-id/usb-Arduino-LLC_Arduino_Leonardo_HIDJD-event --detach-kernel-driver --silent --evdev-absmap ABS_X=x1,ABS_Y=y1
 ```
-
 This need to be executed AFTER initialization phase. To check the inputs, jstest-gtk application can be used.
+
+## Acknowledgments
+MHeironimus for his amazing [Arduino Joystick library](https://github.com/MHeironimus/ArduinoJoystickLibrary)
 
 # License
 
